@@ -1,0 +1,185 @@
+<!-- <!DOCTYPE Html>
+<html>
+<head>
+	<style>
+		body{background-color:rgb(136, 153, 155);font-size:20px}
+		h3{color:snow}
+	</style>
+</head>
+
+<H3>BLVEPRIVT'S PRIVATE UNIVERSITY</H3>
+<p>Is a good institution of higher education, usually comprising a collage <br> of liberal arts and science, it provides a learning enivronment that encourages working on innovative projects <br> in order to promote holistic personality development for nuturing future leaders to confer degree in various fields of study</p>
+<H3>SCHOOL ACTIVITIES</H3>
+<UL TYPE DICS>
+<li>Take part in a student protect</li>
+	<li>Going on an excusion</li>
+	<li>playing of sport Eg. Basketball, Volley ball, Football and so on</li>
+	<li>Rag day</li>
+	<li>Burnfire day</li>
+	<li>Departmental debate</li>
+	<li>Rally</li>
+	<li>SUG campaign</li>
+	<form>
+		<H3>SCHOOL ADIMISSION LOG IN</H3>
+		<Label for="Fname">First Name:</Label>
+		<input type="text" placeholder="First Name"><br><br>
+		<label for="lname">Last Name:</label>
+		<input type="text" placeholder="Last Nmae"><br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender">Male
+		<input type="radio" name="gender">Female><br><br>
+		<label for="date">Date:</label>
+		<input type="date" placeholder="Date"><br><br>
+		<label>SCIENCE COURSES</label>
+		<Select>
+		<option>Computer Science</option>
+			<option>Engineering</option>
+			<option>Chemistry</option>
+			<option>physics</option>
+			<option>Urban Planning</option>
+			<option>Mathematics</option>
+		</Select><br><br>
+		<Label>ART COURSES</Label>
+			<Select>
+			<option>English</option>
+				<option>Arabic</option>
+				<option>Social Studies</option>
+		</Select><br>
+		<H3>ACCOMODATION</H3>
+		<input type="checkbox">Home<br>
+		<input type="checkbox">Hostel<br>
+		<input type="checkbox">Off Campus<br><br>
+				<input type="Submit"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLVEPRIVT UNIVERSITY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-blue-900 text-white text-center py-6 shadow-lg">
+    <h1 class="text-3xl font-bold tracking-wide">BLVEPRIVT'S PRIVATE UNIVERSITY</h1>
+    <p class="mt-2 text-lg">A place for innovation, growth & future leaders</p>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="max-w-4xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-3">About Us</h2>
+    <p class="leading-relaxed">
+      BLVEPRIVT University is an institution of higher education, offering a wide range of
+      academic programs in both sciences and arts. Our learning environment promotes innovation,
+      leadership, and holistic personality development to nurture future leaders.
+    </p>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="max-w-4xl mx-auto p-6 bg-white rounded-2xl shadow-md mt-6">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">School Activities</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Participate in student projects</li>
+      <li>Excursions & educational trips</li>
+      <li>Sports (Basketball, Volleyball, Football, etc.)</li>
+      <li>Rag Day</li>
+      <li>Bonfire Night</li>
+      <li>Departmental Debates</li>
+      <li>Rallies & Campaigns</li>
+    </ul>
+  </section>
+
+  <!-- ADMISSION FORM -->
+  <section class="max-w-2xl mx-auto p-6 bg-blue-50 rounded-2xl shadow-lg mt-8">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4 text-center">School Admission Login</h2>
+    <form class="space-y-4">
+
+      <!-- Names -->
+      <div>
+        <label class="block font-medium">First Name</label>
+        <input type="text" placeholder="Enter First Name"
+               class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+      </div>
+
+      <div>
+        <label class="block font-medium">Last Name</label>
+        <input type="text" placeholder="Enter Last Name"
+               class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+      </div>
+
+      <!-- Gender -->
+      <div>
+        <label class="block font-medium">Gender</label>
+        <div class="flex gap-6 mt-2">
+          <label class="flex items-center gap-2">
+            <input type="radio" name="gender" class="accent-blue-600"> Male
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="radio" name="gender" class="accent-blue-600"> Female
+          </label>
+        </div>
+      </div>
+
+      <!-- Date -->
+      <div>
+        <label class="block font-medium">Date</label>
+        <input type="date"
+               class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+      </div>
+
+      <!-- Courses -->
+      <div>
+        <label class="block font-medium">Science Courses</label>
+        <select class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          <option>Computer Science</option>
+          <option>Engineering</option>
+          <option>Chemistry</option>
+          <option>Physics</option>
+          <option>Urban Planning</option>
+          <option>Mathematics</option>
+        </select>
+      </div>
+       <div>
+        <label class="block font-medium">Art Courses</label>
+            <select class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            <option>English</option>
+                <option>Arabic</option>
+            <option>Social Studies</option>
+            </select>
+        </div>
+        
+
+      <!-- Accommodation -->
+      <div>
+        <h3 class="font-medium mb-2">Accommodation</h3>
+        <div class="space-y-2">
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="accent-blue-600"> Home
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="accent-blue-600"> Hostel
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="accent-blue-600"> Off Campus
+          </label>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit"
+              class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-blue-700 transition">
+        Submit
+      </button>
+
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 mt-10 bg-blue-900 text-white">
+    <p>&copy; 2025 BLVEPRIVT University. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>				
